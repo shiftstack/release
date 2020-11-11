@@ -21,7 +21,7 @@ function check_ip_resolves() {
 }
 
 
-LB_FIP_IP=$(<"${SHARED_DIR}"/LB_FIP_IP)
+API_FIP_IP=$(<"${SHARED_DIR}"/API_FIP_IP)
 INGRESS_FIP_IP=$(<"${SHARED_DIR}"/INGRESS_FIP_IP)
 
 SLEEP_TIME=${WAIT_TIME}
@@ -29,7 +29,7 @@ COUNT=$(seq ${TRY_COUNT})
 
 
 declare -A ipmap
-ipmap["api"]=${LB_FIP_IP}
+ipmap["api"]=${API_FIP_IP}
 ipmap["ingress.apps"]=${INGRESS_FIP_IP}
 
 for key in "${!ipmap[@]}"

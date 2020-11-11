@@ -11,7 +11,7 @@ export AWS_DEFAULT_OUTPUT=json
 export AWS_PROFILE=openshift-ci-infra
 
 CLUSTER_NAME=$(<"${SHARED_DIR}"/CLUSTER_NAME)
-LB_FIP_IP=$(<"${SHARED_DIR}"/LB_FIP_IP)
+API_FIP_IP=$(<"${SHARED_DIR}"/API_FIP_IP)
 INGRESS_FIP_IP=$(<"${SHARED_DIR}"/INGRESS_FIP_IP)
 HOSTED_ZONE_ID=$(aws route53 list-hosted-zones-by-name --dns-name "${BASE_DOMAIN}" | python -c '
 import json,sys;
@@ -27,7 +27,7 @@ cat > ${SHARED_DIR}/api-record.json <<EOF
         "Name": "api.${CLUSTER_NAME}.${BASE_DOMAIN}.",
         "Type": "A",
         "TTL": 300,
-        "ResourceRecords": [{"Value": "${LB_FIP_IP}"}]
+        "ResourceRecords": [{"Value": "${API_FIP_IP}"}]
       }
 }]}
 EOF
