@@ -4068,7 +4068,7 @@ periodics:
       projected:
         sources:
         - secret:
-            name: cluster-secrets-openstack
+            name: cluster-secrets-openstack-vh-mecha
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -5803,7 +5803,7 @@ periodics:
       projected:
         sources:
         - secret:
-            name: cluster-secrets-openstack
+            name: cluster-secrets-openstack-vh-mecha
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -8896,7 +8896,7 @@ periodics:
       projected:
         sources:
         - secret:
-            name: cluster-secrets-openstack
+            name: cluster-secrets-openstack-vh-mecha
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
