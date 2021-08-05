@@ -11,7 +11,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v4.6.odo
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-devfile-integration-tests-main-v4.6.odo-images
@@ -62,7 +62,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v4.6.odo
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-devfile-integration-tests-main-v4.6.odo-integration-devfile-odo
@@ -131,7 +131,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v4.7.console
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-devfile-integration-tests-main-v4.7.console-e2e-gcp-console
@@ -202,7 +202,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v4.7.console
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-devfile-integration-tests-main-v4.7.console-images
@@ -254,7 +254,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v4.7.odo
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-devfile-integration-tests-main-v4.7.odo-images
@@ -305,7 +305,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v4.7.odo
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-devfile-integration-tests-main-v4.7.odo-integration-devfile-odo
@@ -374,7 +374,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v4.8.console
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-devfile-integration-tests-main-v4.8.console-e2e-gcp-console
@@ -445,7 +445,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v4.8.console
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-devfile-integration-tests-main-v4.8.console-images
@@ -497,7 +497,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v4.8.odo
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-devfile-integration-tests-main-v4.8.odo-images
@@ -548,7 +548,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v4.8.odo
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-devfile-integration-tests-main-v4.8.odo-integration-devfile-odo

@@ -11,7 +11,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-addon-operator-main-e2e
     rerun_command: /test e2e
@@ -78,7 +78,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-addon-operator-main-images
     rerun_command: /test images
@@ -127,7 +127,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-addon-operator-main-lint
     rerun_command: /test lint
@@ -176,7 +176,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-addon-operator-main-unit
     rerun_command: /test unit

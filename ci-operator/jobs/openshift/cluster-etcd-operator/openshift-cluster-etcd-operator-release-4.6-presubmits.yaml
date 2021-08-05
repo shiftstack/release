@@ -11,7 +11,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-etcd-operator-release-4.6-configmap-scale
     rerun_command: /test configmap-scale
@@ -78,7 +78,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-etcd-operator-release-4.6-e2e-agnostic
     rerun_command: /test e2e-agnostic
@@ -147,7 +147,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-etcd-operator-release-4.6-e2e-agnostic-upgrade
     rerun_command: /test e2e-agnostic-upgrade
@@ -216,7 +216,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-etcd-operator-release-4.6-e2e-aws
     optional: true
@@ -284,7 +284,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-etcd-operator-release-4.6-e2e-azure
     optional: true
@@ -352,7 +352,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-etcd-operator-release-4.6-e2e-disruptive
     optional: true
@@ -420,7 +420,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-etcd-operator-release-4.6-e2e-gcp
     optional: true
@@ -490,7 +490,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-etcd-operator-release-4.6-e2e-metal-assisted
     optional: true
@@ -560,7 +560,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-etcd-operator-release-4.6-e2e-metal-ipi
     optional: true
@@ -630,7 +630,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-etcd-operator-release-4.6-e2e-operator
     rerun_command: /test e2e-operator
@@ -697,7 +697,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-etcd-operator-release-4.6-images
     rerun_command: /test images
@@ -747,7 +747,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-etcd-operator-release-4.6-unit
     rerun_command: /test unit
@@ -796,7 +796,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-etcd-operator-release-4.6-verify
     rerun_command: /test verify
@@ -845,7 +845,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-etcd-operator-release-4.6-verify-deps
     rerun_command: /test verify-deps

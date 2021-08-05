@@ -11,7 +11,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-cloud-controller-manager-operator-master-e2e-aws
     rerun_command: /test e2e-aws
@@ -79,7 +79,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-cloud-controller-manager-operator-master-e2e-aws-ccm
     rerun_command: /test e2e-aws-ccm
@@ -147,7 +147,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-cloud-controller-manager-operator-master-e2e-aws-ccm-install
     optional: true
@@ -216,7 +216,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-cloud-controller-manager-operator-master-e2e-aws-upgrade
     rerun_command: /test e2e-aws-upgrade
@@ -284,7 +284,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-cloud-controller-manager-operator-master-e2e-azure-ccm
     optional: true
@@ -352,7 +352,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-cloud-controller-manager-operator-master-e2e-azure-ccm-install
     optional: true
@@ -420,7 +420,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-cloud-controller-manager-operator-master-e2e-openstack-ccm
     optional: true
@@ -488,7 +488,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-cloud-controller-manager-operator-master-images
     rerun_command: /test images
@@ -538,7 +538,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-cloud-controller-manager-operator-master-vendor
     rerun_command: /test vendor
@@ -587,7 +587,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-cloud-controller-manager-operator-master-verify
     rerun_command: /test verify

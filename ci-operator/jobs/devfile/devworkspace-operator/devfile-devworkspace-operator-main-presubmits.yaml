@@ -11,7 +11,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v7
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-devfile-devworkspace-operator-main-v7-devworkspace-happy-path
@@ -89,7 +89,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v7
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-devfile-devworkspace-operator-main-v7-devworkspaces-operator-e2e
@@ -167,7 +167,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v7
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-devfile-devworkspace-operator-main-v7-images

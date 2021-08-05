@@ -11,7 +11,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-hyperconverged-cluster-operator-release-4.7-ci-index
     rerun_command: /test ci-index
@@ -60,7 +60,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-hyperconverged-cluster-operator-release-4.7-hco-e2e-image-index-aws
     rerun_command: /test hco-e2e-image-index-aws
@@ -127,7 +127,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-hyperconverged-cluster-operator-release-4.7-hco-e2e-image-index-azure
     rerun_command: /test hco-e2e-image-index-azure
@@ -194,7 +194,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-hyperconverged-cluster-operator-release-4.7-hco-e2e-image-index-gcp
     rerun_command: /test hco-e2e-image-index-gcp
@@ -263,7 +263,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-hyperconverged-cluster-operator-release-4.7-hco-e2e-upgrade-aws
     rerun_command: /test hco-e2e-upgrade-aws
@@ -330,7 +330,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-hyperconverged-cluster-operator-release-4.7-hco-e2e-upgrade-azure
     rerun_command: /test hco-e2e-upgrade-azure
@@ -397,7 +397,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-hyperconverged-cluster-operator-release-4.7-hco-e2e-upgrade-prev-aws
     rerun_command: /test hco-e2e-upgrade-prev-aws
@@ -464,7 +464,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-hyperconverged-cluster-operator-release-4.7-hco-e2e-upgrade-prev-azure
     rerun_command: /test hco-e2e-upgrade-prev-azure
@@ -531,7 +531,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-hyperconverged-cluster-operator-release-4.7-images
     rerun_command: /test images

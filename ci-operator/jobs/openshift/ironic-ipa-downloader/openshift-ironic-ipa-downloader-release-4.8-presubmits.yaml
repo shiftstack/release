@@ -11,7 +11,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-ironic-ipa-downloader-release-4.8-e2e-metal-ipi
     rerun_command: /test e2e-metal-ipi
@@ -81,7 +81,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-ironic-ipa-downloader-release-4.8-images
     rerun_command: /test images
@@ -132,7 +132,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: prevalidation
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-ironic-ipa-downloader-release-4.8-prevalidation-e2e-metal-ipi-prevalidation
@@ -204,7 +204,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: prevalidation
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-ironic-ipa-downloader-release-4.8-prevalidation-images

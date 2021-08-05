@@ -9,7 +9,7 @@ presubmits:
     context: ci/prow/e2e-metal-ipi
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-baremetal-operator-release-4.10-e2e-metal-ipi
     optional: true
@@ -78,7 +78,7 @@ presubmits:
     context: ci/prow/e2e-metal-ipi-ovn-dualstack
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-baremetal-operator-release-4.10-e2e-metal-ipi-ovn-dualstack
     optional: true
@@ -147,7 +147,7 @@ presubmits:
     context: ci/prow/e2e-metal-ipi-ovn-ipv6
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-baremetal-operator-release-4.10-e2e-metal-ipi-ovn-ipv6
     path_alias: github.com/metal3-io/baremetal-operator
@@ -216,7 +216,7 @@ presubmits:
     context: ci/prow/e2e-metal-ipi-serial-ipv4
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-baremetal-operator-release-4.10-e2e-metal-ipi-serial-ipv4
     path_alias: github.com/metal3-io/baremetal-operator
@@ -285,7 +285,7 @@ presubmits:
     context: ci/prow/e2e-metal-ipi-virtualmedia
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-baremetal-operator-release-4.10-e2e-metal-ipi-virtualmedia
     path_alias: github.com/metal3-io/baremetal-operator
@@ -353,7 +353,7 @@ presubmits:
     context: ci/prow/images
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-baremetal-operator-release-4.10-images
     path_alias: github.com/metal3-io/baremetal-operator
@@ -402,7 +402,7 @@ presubmits:
     context: ci/prow/lint
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-baremetal-operator-release-4.10-lint
     path_alias: github.com/metal3-io/baremetal-operator
@@ -451,7 +451,7 @@ presubmits:
     context: ci/prow/unit
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-baremetal-operator-release-4.10-unit
     path_alias: github.com/metal3-io/baremetal-operator

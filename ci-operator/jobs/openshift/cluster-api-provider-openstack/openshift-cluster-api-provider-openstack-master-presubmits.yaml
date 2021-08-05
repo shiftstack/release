@@ -9,7 +9,7 @@ presubmits:
     context: ci/prow/e2e-openstack
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-api-provider-openstack-master-e2e-openstack
     path_alias: sigs.k8s.io/cluster-api-provider-openstack
@@ -75,7 +75,7 @@ presubmits:
     context: ci/prow/e2e-openstack-byon
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-api-provider-openstack-master-e2e-openstack-byon
     optional: true
@@ -143,7 +143,7 @@ presubmits:
     context: ci/prow/e2e-openstack-parallel
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-api-provider-openstack-master-e2e-openstack-parallel
     optional: true
@@ -210,7 +210,7 @@ presubmits:
     context: ci/prow/e2e-upgrade
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-api-provider-openstack-master-e2e-upgrade
     optional: true
@@ -277,7 +277,7 @@ presubmits:
     context: ci/prow/gofmt
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-api-provider-openstack-master-gofmt
     path_alias: sigs.k8s.io/cluster-api-provider-openstack
@@ -325,7 +325,7 @@ presubmits:
     context: ci/prow/golint
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-api-provider-openstack-master-golint
     path_alias: sigs.k8s.io/cluster-api-provider-openstack
@@ -373,7 +373,7 @@ presubmits:
     context: ci/prow/govet
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-api-provider-openstack-master-govet
     path_alias: sigs.k8s.io/cluster-api-provider-openstack
@@ -421,7 +421,7 @@ presubmits:
     context: ci/prow/images
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-api-provider-openstack-master-images
     path_alias: sigs.k8s.io/cluster-api-provider-openstack
@@ -470,7 +470,7 @@ presubmits:
     context: ci/prow/unit
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-api-provider-openstack-master-unit
     path_alias: sigs.k8s.io/cluster-api-provider-openstack

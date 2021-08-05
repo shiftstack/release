@@ -9,7 +9,7 @@ presubmits:
     context: ci/prow/e2e-agnostic-cmo
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-k8s-prometheus-adapter-release-4.9-e2e-agnostic-cmo
     path_alias: github.com/directxman12/k8s-prometheus-adapter
@@ -75,7 +75,7 @@ presubmits:
     context: ci/prow/e2e-aws
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-k8s-prometheus-adapter-release-4.9-e2e-aws
     path_alias: github.com/directxman12/k8s-prometheus-adapter
@@ -141,7 +141,7 @@ presubmits:
     context: ci/prow/images
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-k8s-prometheus-adapter-release-4.9-images
     path_alias: github.com/directxman12/k8s-prometheus-adapter
@@ -189,7 +189,7 @@ presubmits:
     context: ci/prow/unit
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-k8s-prometheus-adapter-release-4.9-unit
     optional: true
@@ -238,7 +238,7 @@ presubmits:
     context: ci/prow/vendor
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-k8s-prometheus-adapter-release-4.9-vendor
     path_alias: github.com/directxman12/k8s-prometheus-adapter

@@ -9,7 +9,7 @@ presubmits:
     context: ci/prow/e2e-agnostic
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-authentication-operator-release-4.10-e2e-agnostic
     rerun_command: /test e2e-agnostic
@@ -74,7 +74,7 @@ presubmits:
     context: ci/prow/e2e-agnostic-ipv6
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-authentication-operator-release-4.10-e2e-agnostic-ipv6
     optional: true
@@ -142,7 +142,7 @@ presubmits:
     context: ci/prow/e2e-agnostic-upgrade
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-authentication-operator-release-4.10-e2e-agnostic-upgrade
     rerun_command: /test e2e-agnostic-upgrade
@@ -207,7 +207,7 @@ presubmits:
     context: ci/prow/e2e-aws-single-node
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-authentication-operator-release-4.10-e2e-aws-single-node
     optional: true
@@ -273,7 +273,7 @@ presubmits:
     context: ci/prow/e2e-console-login
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-authentication-operator-release-4.10-e2e-console-login
     rerun_command: /test e2e-console-login
@@ -340,7 +340,7 @@ presubmits:
     context: ci/prow/e2e-gcp-operator-encryption-perf
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-authentication-operator-release-4.10-e2e-gcp-operator-encryption-perf
     rerun_command: /test e2e-gcp-operator-encryption-perf
@@ -408,7 +408,7 @@ presubmits:
     context: ci/prow/e2e-gcp-operator-encryption-rotation
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-authentication-operator-release-4.10-e2e-gcp-operator-encryption-rotation
     rerun_command: /test e2e-gcp-operator-encryption-rotation
@@ -476,7 +476,7 @@ presubmits:
     context: ci/prow/e2e-operator
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-authentication-operator-release-4.10-e2e-operator
     rerun_command: /test e2e-operator
@@ -543,7 +543,7 @@ presubmits:
     context: ci/prow/e2e-operator-encryption
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-authentication-operator-release-4.10-e2e-operator-encryption
     rerun_command: /test e2e-operator-encryption
@@ -611,7 +611,7 @@ presubmits:
     context: ci/prow/images
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-authentication-operator-release-4.10-images
     rerun_command: /test images
@@ -659,7 +659,7 @@ presubmits:
     context: ci/prow/unit
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-authentication-operator-release-4.10-unit
     rerun_command: /test unit
@@ -706,7 +706,7 @@ presubmits:
     context: ci/prow/verify
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-authentication-operator-release-4.10-verify
     rerun_command: /test verify
@@ -753,7 +753,7 @@ presubmits:
     context: ci/prow/verify-deps
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-authentication-operator-release-4.10-verify-deps
     rerun_command: /test verify-deps

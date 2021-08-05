@@ -10,7 +10,7 @@ periodics:
     org: openshift
     repo: odo
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: v4.6
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
   name: periodic-ci-openshift-odo-main-v4.6-integration-e2e-periodic
@@ -88,7 +88,7 @@ periodics:
     org: openshift
     repo: odo
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: v4.7
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
   name: periodic-ci-openshift-odo-main-v4.7-integration-e2e-periodic
@@ -166,7 +166,7 @@ periodics:
     org: openshift
     repo: odo
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: v4.8
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
   name: periodic-ci-openshift-odo-main-v4.8-integration-e2e-periodic
@@ -244,7 +244,7 @@ periodics:
     org: openshift
     repo: odo
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: v4.9
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
   name: periodic-ci-openshift-odo-main-v4.9-integration-e2e-periodic

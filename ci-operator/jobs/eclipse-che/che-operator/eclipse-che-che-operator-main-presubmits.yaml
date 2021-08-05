@@ -11,7 +11,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v7
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-eclipse-che-che-operator-main-v7-ci-index
@@ -62,7 +62,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v7
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-eclipse-che-che-operator-main-v7-devworkspace-happy-path
@@ -133,7 +133,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v7
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-eclipse-che-che-operator-main-v7-images
@@ -184,7 +184,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v7
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-eclipse-che-che-operator-main-v7-multi-host-next-deployment
@@ -255,7 +255,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v7
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-eclipse-che-che-operator-main-v7-single-host-nightly-deployment
@@ -326,7 +326,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v7
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-eclipse-che-che-operator-main-v7-stable-to-nightly
@@ -397,7 +397,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v8
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-eclipse-che-che-operator-main-v8-che-behind-proxy
@@ -466,7 +466,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v8
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-eclipse-che-che-operator-main-v8-ci-index
@@ -517,7 +517,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v8
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-eclipse-che-che-operator-main-v8-images
@@ -568,7 +568,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v8
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-eclipse-che-che-operator-main-v8-multi-host-next-deployment
@@ -639,7 +639,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v8
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-eclipse-che-che-operator-main-v8-single-host-next-deployment

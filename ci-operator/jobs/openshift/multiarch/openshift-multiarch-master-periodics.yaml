@@ -11,7 +11,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -87,7 +87,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -163,7 +163,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -239,7 +239,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -315,7 +315,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -391,7 +391,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -467,7 +467,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -543,7 +543,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -619,7 +619,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -695,7 +695,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -771,7 +771,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -847,7 +847,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -923,7 +923,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -999,7 +999,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1075,7 +1075,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1151,7 +1151,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1227,7 +1227,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1303,7 +1303,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1379,7 +1379,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1455,7 +1455,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1531,7 +1531,7 @@ periodics:
   interval: 12h
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1607,7 +1607,7 @@ periodics:
   interval: 12h
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1683,7 +1683,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1759,7 +1759,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1835,7 +1835,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1911,7 +1911,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1987,7 +1987,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2063,7 +2063,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2139,7 +2139,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2215,7 +2215,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2291,7 +2291,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2367,7 +2367,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2443,7 +2443,7 @@ periodics:
   interval: 12h
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2519,7 +2519,7 @@ periodics:
   interval: 12h
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2595,7 +2595,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2671,7 +2671,7 @@ periodics:
     repo: multiarch
   labels:
     ci-operator.openshift.io/cluster: build01
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"

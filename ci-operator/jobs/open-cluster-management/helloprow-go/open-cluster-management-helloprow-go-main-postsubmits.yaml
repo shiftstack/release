@@ -8,7 +8,7 @@ postsubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
     max_concurrency: 1
     name: branch-ci-open-cluster-management-helloprow-go-main-backplane-fast-forward
     spec:
@@ -52,7 +52,7 @@ postsubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
     max_concurrency: 1
     name: branch-ci-open-cluster-management-helloprow-go-main-fast-forward
     spec:
@@ -104,7 +104,7 @@ postsubmits:
       skip_cloning: true
     labels:
       ci-operator.openshift.io/is-promotion: "true"
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
     max_concurrency: 1
     name: branch-ci-open-cluster-management-helloprow-go-main-images
     spec:
@@ -156,7 +156,7 @@ postsubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
     max_concurrency: 1
     name: branch-ci-open-cluster-management-helloprow-go-main-latest-image-mirror
     spec:
@@ -200,7 +200,7 @@ postsubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
     max_concurrency: 1
     name: branch-ci-open-cluster-management-helloprow-go-main-sonar-post-submit
     spec:

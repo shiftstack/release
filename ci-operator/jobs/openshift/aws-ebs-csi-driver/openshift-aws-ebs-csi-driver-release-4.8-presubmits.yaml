@@ -11,7 +11,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-aws-ebs-csi-driver-release-4.8-e2e-aws-csi
     path_alias: github.com/kubernetes-sigs/aws-ebs-csi-driver
@@ -79,7 +79,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-aws-ebs-csi-driver-release-4.8-images
     path_alias: github.com/kubernetes-sigs/aws-ebs-csi-driver
@@ -130,7 +130,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-aws-ebs-csi-driver-release-4.8-unit
     path_alias: github.com/kubernetes-sigs/aws-ebs-csi-driver
@@ -180,7 +180,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-aws-ebs-csi-driver-release-4.8-verify
     path_alias: github.com/kubernetes-sigs/aws-ebs-csi-driver

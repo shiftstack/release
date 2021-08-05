@@ -9,7 +9,7 @@ presubmits:
     context: ci/prow/e2e-openstack-csi
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-csi-driver-nfs-release-4.10-e2e-openstack-csi
     optional: true
@@ -76,7 +76,7 @@ presubmits:
     context: ci/prow/go-fmt
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-csi-driver-nfs-release-4.10-go-fmt
     path_alias: github.com/kubernetes-csi/csi-driver-nfs
@@ -124,7 +124,7 @@ presubmits:
     context: ci/prow/go-vet
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-csi-driver-nfs-release-4.10-go-vet
     path_alias: github.com/kubernetes-csi/csi-driver-nfs
@@ -172,7 +172,7 @@ presubmits:
     context: ci/prow/images
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-csi-driver-nfs-release-4.10-images
     path_alias: github.com/kubernetes-csi/csi-driver-nfs
@@ -221,7 +221,7 @@ presubmits:
     context: ci/prow/vendor
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-csi-driver-nfs-release-4.10-vendor
     path_alias: github.com/kubernetes-csi/csi-driver-nfs

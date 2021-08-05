@@ -9,7 +9,7 @@ presubmits:
     context: ci/prow/e2e-aws
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-openshift-controller-manager-master-e2e-aws
     rerun_command: /test e2e-aws
@@ -75,7 +75,7 @@ presubmits:
     context: ci/prow/e2e-aws-builds
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-openshift-controller-manager-master-e2e-aws-builds
     rerun_command: /test e2e-aws-builds
@@ -141,7 +141,7 @@ presubmits:
     context: ci/prow/e2e-aws-proxy
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-openshift-controller-manager-master-e2e-aws-proxy
     optional: true
@@ -208,7 +208,7 @@ presubmits:
     context: ci/prow/e2e-aws-upgrade
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-openshift-controller-manager-master-e2e-aws-upgrade
     rerun_command: /test e2e-aws-upgrade
@@ -274,7 +274,7 @@ presubmits:
     context: ci/prow/e2e-gcp
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-openshift-controller-manager-master-e2e-gcp
     rerun_command: /test e2e-gcp
@@ -342,7 +342,7 @@ presubmits:
     context: ci/prow/e2e-gcp-builds
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-openshift-controller-manager-master-e2e-gcp-builds
     rerun_command: /test e2e-gcp-builds
@@ -410,7 +410,7 @@ presubmits:
     context: ci/prow/images
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-openshift-controller-manager-master-images
     rerun_command: /test images
@@ -459,7 +459,7 @@ presubmits:
     context: ci/prow/unit
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-openshift-controller-manager-master-unit
     rerun_command: /test unit
@@ -507,7 +507,7 @@ presubmits:
     context: ci/prow/verify
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-openshift-controller-manager-master-verify
     rerun_command: /test verify

@@ -9,7 +9,7 @@ presubmits:
     context: ci/prow/e2e-openstack
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-openstack-cinder-csi-driver-operator-release-4.10-e2e-openstack
     optional: true
@@ -75,7 +75,7 @@ presubmits:
     context: ci/prow/e2e-openstack-csi
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-openstack-cinder-csi-driver-operator-release-4.10-e2e-openstack-csi
     optional: true
@@ -141,7 +141,7 @@ presubmits:
     context: ci/prow/images
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-openstack-cinder-csi-driver-operator-release-4.10-images
     rerun_command: /test images
@@ -189,7 +189,7 @@ presubmits:
     context: ci/prow/verify
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-openstack-cinder-csi-driver-operator-release-4.10-verify
     rerun_command: /test verify

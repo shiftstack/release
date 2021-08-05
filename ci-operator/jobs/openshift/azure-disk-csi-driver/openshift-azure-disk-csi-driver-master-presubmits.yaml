@@ -9,7 +9,7 @@ presubmits:
     context: ci/prow/e2e-azure
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-azure-disk-csi-driver-master-e2e-azure
     path_alias: github.com/kubernetes-sigs/azuredisk-csi-driver
@@ -75,7 +75,7 @@ presubmits:
     context: ci/prow/e2e-azure-csi
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-azure-disk-csi-driver-master-e2e-azure-csi
     optional: true
@@ -142,7 +142,7 @@ presubmits:
     context: ci/prow/e2e-azure-csi-migration
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-azure-disk-csi-driver-master-e2e-azure-csi-migration
     optional: true
@@ -209,7 +209,7 @@ presubmits:
     context: ci/prow/images
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-azure-disk-csi-driver-master-images
     path_alias: github.com/kubernetes-sigs/azuredisk-csi-driver
@@ -258,7 +258,7 @@ presubmits:
     context: ci/prow/unit-skipped
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-azure-disk-csi-driver-master-unit-skipped
     path_alias: github.com/kubernetes-sigs/azuredisk-csi-driver

@@ -11,7 +11,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v6
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-eclipse-che-che-operator-7-v6-che-operator-update
@@ -80,7 +80,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v7
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-eclipse-che-che-operator-7-v7-che-operator-update
@@ -149,7 +149,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       ci-operator.openshift.io/variant: v8
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-eclipse-che-che-operator-7-v8-che-operator-update

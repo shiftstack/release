@@ -10,7 +10,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.1
     job-release: "4.1"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -85,7 +85,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.1
     job-release: "4.1"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -160,7 +160,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.2
     job-release: "4.2"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -235,7 +235,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.2
     job-release: "4.2"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -310,7 +310,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.2
     job-release: "4.2"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -385,7 +385,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.2
     job-release: "4.2"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -462,7 +462,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.3
     job-release: "4.3"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -537,7 +537,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.3
     job-release: "4.3"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -612,7 +612,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.3
     job-release: "4.3"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -687,7 +687,7 @@ periodics:
     repo: release
   interval: 16h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.3
     job-release: "4.3"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -764,7 +764,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -839,7 +839,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -914,7 +914,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -989,7 +989,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1064,7 +1064,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1141,7 +1141,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1218,7 +1218,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.4-upgrade-from-stable-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1293,7 +1293,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1368,7 +1368,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1443,7 +1443,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1518,7 +1518,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1593,7 +1593,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1668,7 +1668,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1743,7 +1743,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1818,7 +1818,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1895,7 +1895,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -1972,7 +1972,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2049,7 +2049,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5-upgrade-from-stable-4.4
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2124,7 +2124,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5-upgrade-from-stable-4.4
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2199,7 +2199,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5-upgrade-from-stable-4.4
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2274,7 +2274,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5-upgrade-from-stable-4.4
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2349,7 +2349,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5-upgrade-from-stable-4.4
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2424,7 +2424,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5-upgrade-from-stable-4.4
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2499,7 +2499,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5-upgrade-from-stable-4.4
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2576,7 +2576,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5-upgrade-from-stable-4.4
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2653,7 +2653,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.5-upgrade-from-stable-4.4
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2730,7 +2730,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2805,7 +2805,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2880,7 +2880,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -2955,7 +2955,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -3030,7 +3030,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -3105,7 +3105,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -3180,7 +3180,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -3255,7 +3255,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -3330,7 +3330,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -3405,7 +3405,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -3480,7 +3480,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -3557,7 +3557,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -3634,7 +3634,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -3711,7 +3711,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -3786,7 +3786,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -3861,7 +3861,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6-upgrade-from-stable-4.5
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -3936,7 +3936,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6-upgrade-from-stable-4.5
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -4011,7 +4011,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6-upgrade-from-stable-4.5
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -4086,7 +4086,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6-upgrade-from-stable-4.5
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -4161,7 +4161,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6-upgrade-from-stable-4.5
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -4236,7 +4236,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6-upgrade-from-stable-4.5
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -4311,7 +4311,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6-upgrade-from-stable-4.5
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -4388,7 +4388,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6-upgrade-from-stable-4.5
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -4465,7 +4465,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6-upgrade-from-stable-4.5
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -4540,7 +4540,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6-upgrade-from-stable-4.5
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -4617,7 +4617,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.6-upgrade-from-stable-4.5
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -4692,7 +4692,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -4767,7 +4767,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -4842,7 +4842,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -4917,7 +4917,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -4992,7 +4992,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -5067,7 +5067,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -5142,7 +5142,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -5217,7 +5217,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -5292,7 +5292,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -5367,7 +5367,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -5442,7 +5442,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -5519,7 +5519,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -5596,7 +5596,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -5673,7 +5673,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -5756,7 +5756,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -5831,7 +5831,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -5906,7 +5906,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7-upgrade-from-stable-4.6
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -5981,7 +5981,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7-upgrade-from-stable-4.6
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -6056,7 +6056,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7-upgrade-from-stable-4.6
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -6131,7 +6131,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7-upgrade-from-stable-4.6
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -6206,7 +6206,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7-upgrade-from-stable-4.6
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -6281,7 +6281,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7-upgrade-from-stable-4.6
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -6356,7 +6356,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7-upgrade-from-stable-4.6
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -6433,7 +6433,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7-upgrade-from-stable-4.6
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -6510,7 +6510,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7-upgrade-from-stable-4.6
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -6585,7 +6585,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7-upgrade-from-stable-4.6
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -6662,7 +6662,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.7-upgrade-from-stable-4.6
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -6737,7 +6737,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -6812,7 +6812,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -6887,7 +6887,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -6962,7 +6962,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -7037,7 +7037,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -7112,7 +7112,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -7187,7 +7187,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -7262,7 +7262,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -7337,7 +7337,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -7412,7 +7412,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -7487,7 +7487,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -7562,7 +7562,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -7637,7 +7637,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -7712,7 +7712,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -7787,7 +7787,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -7862,7 +7862,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -7937,7 +7937,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -8012,7 +8012,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -8087,7 +8087,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -8162,7 +8162,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -8237,7 +8237,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -8312,7 +8312,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -8387,7 +8387,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -8464,7 +8464,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -8541,7 +8541,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -8618,7 +8618,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -8695,7 +8695,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -8772,7 +8772,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -8849,7 +8849,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -8926,7 +8926,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -9009,7 +9009,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -9084,7 +9084,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -9159,7 +9159,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8-upgrade-from-from-stable-4.7-from-stable-4.6
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -9234,7 +9234,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8-upgrade-from-stable-4.7
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -9309,7 +9309,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8-upgrade-from-stable-4.7
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -9384,7 +9384,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8-upgrade-from-stable-4.7
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -9459,7 +9459,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8-upgrade-from-stable-4.7
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -9534,7 +9534,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8-upgrade-from-stable-4.7
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -9609,7 +9609,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8-upgrade-from-stable-4.7
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -9684,7 +9684,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8-upgrade-from-stable-4.7
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -9759,7 +9759,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8-upgrade-from-stable-4.7
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -9836,7 +9836,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8-upgrade-from-stable-4.7
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -9913,7 +9913,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8-upgrade-from-stable-4.7
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -9988,7 +9988,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8-upgrade-from-stable-4.7
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -10065,7 +10065,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.8-upgrade-from-stable-4.7
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -10140,7 +10140,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -10215,7 +10215,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -10290,7 +10290,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -10365,7 +10365,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -10440,7 +10440,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -10515,7 +10515,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -10590,7 +10590,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -10665,7 +10665,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -10740,7 +10740,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -10815,7 +10815,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -10890,7 +10890,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -10965,7 +10965,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -11040,7 +11040,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -11115,7 +11115,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -11190,7 +11190,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -11265,7 +11265,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -11340,7 +11340,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -11415,7 +11415,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -11490,7 +11490,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -11565,7 +11565,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -11640,7 +11640,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -11715,7 +11715,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -11790,7 +11790,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -11867,7 +11867,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -11944,7 +11944,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -12021,7 +12021,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -12098,7 +12098,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -12175,7 +12175,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -12252,7 +12252,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -12329,7 +12329,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -12412,7 +12412,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -12487,7 +12487,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -12562,7 +12562,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -12637,7 +12637,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9-upgrade-from-stable-4.8
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -12712,7 +12712,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9-upgrade-from-stable-4.8
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -12787,7 +12787,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9-upgrade-from-stable-4.8
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -12862,7 +12862,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9-upgrade-from-stable-4.8
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -12937,7 +12937,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9-upgrade-from-stable-4.8
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -13012,7 +13012,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9-upgrade-from-stable-4.8
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -13087,7 +13087,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9-upgrade-from-stable-4.8
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -13162,7 +13162,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9-upgrade-from-stable-4.8
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -13239,7 +13239,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9-upgrade-from-stable-4.8
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -13316,7 +13316,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9-upgrade-from-stable-4.8
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -13391,7 +13391,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9-upgrade-from-stable-4.8
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -13468,7 +13468,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9-upgrade-from-stable-4.8
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -13543,7 +13543,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: ci-4.9-upgrade-from-stable-4.8-from-stable-4.7
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -13618,7 +13618,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.1
     job-release: "4.1"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -13693,7 +13693,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.1
     job-release: "4.1"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -13768,7 +13768,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.2
     job-release: "4.2"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -13843,7 +13843,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.2
     job-release: "4.2"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -13918,7 +13918,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.2
     job-release: "4.2"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -13993,7 +13993,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.2
     job-release: "4.2"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -14068,7 +14068,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.2
     job-release: "4.2"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -14143,7 +14143,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.2
     job-release: "4.2"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -14218,7 +14218,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.2
     job-release: "4.2"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -14293,7 +14293,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.2
     job-release: "4.2"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -14368,7 +14368,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.2
     job-release: "4.2"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -14445,7 +14445,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.2
     job-release: "4.2"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -14522,7 +14522,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.2
     job-release: "4.2"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -14599,7 +14599,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.3
     job-release: "4.3"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -14674,7 +14674,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.3
     job-release: "4.3"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -14749,7 +14749,7 @@ periodics:
     repo: release
   interval: 2h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.3
     job-release: "4.3"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -14824,7 +14824,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.3
     job-release: "4.3"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -14899,7 +14899,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.3
     job-release: "4.3"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -14974,7 +14974,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.3
     job-release: "4.3"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -15049,7 +15049,7 @@ periodics:
     repo: release
   interval: 16h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.3
     job-release: "4.3"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -15124,7 +15124,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.3
     job-release: "4.3"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -15199,7 +15199,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.3
     job-release: "4.3"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -15274,7 +15274,7 @@ periodics:
     repo: release
   interval: 16h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.3
     job-release: "4.3"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -15351,7 +15351,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.3
     job-release: "4.3"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -15428,7 +15428,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.3
     job-release: "4.3"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -15505,7 +15505,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -15580,7 +15580,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -15655,7 +15655,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -15730,7 +15730,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -15805,7 +15805,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -15880,7 +15880,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -15955,7 +15955,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -16030,7 +16030,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -16105,7 +16105,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -16180,7 +16180,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -16255,7 +16255,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -16330,7 +16330,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -16407,7 +16407,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -16484,7 +16484,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -16561,7 +16561,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.4
     job-release: "4.4"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -16638,7 +16638,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -16713,7 +16713,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -16788,7 +16788,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -16863,7 +16863,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -16938,7 +16938,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -17013,7 +17013,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -17088,7 +17088,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -17163,7 +17163,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -17238,7 +17238,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -17313,7 +17313,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -17388,7 +17388,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -17465,7 +17465,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -17542,7 +17542,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -17619,7 +17619,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -17696,7 +17696,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -17773,7 +17773,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -17850,7 +17850,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -17927,7 +17927,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.5
     job-release: "4.5"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -18002,7 +18002,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -18077,7 +18077,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -18152,7 +18152,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -18227,7 +18227,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -18302,7 +18302,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -18377,7 +18377,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -18452,7 +18452,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -18527,7 +18527,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -18602,7 +18602,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -18677,7 +18677,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -18752,7 +18752,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -18827,7 +18827,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -18904,7 +18904,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -18981,7 +18981,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -19058,7 +19058,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -19135,7 +19135,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -19212,7 +19212,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -19300,7 +19300,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -19377,7 +19377,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -19454,7 +19454,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -19531,7 +19531,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -19608,7 +19608,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -19685,7 +19685,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -19762,7 +19762,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -19837,7 +19837,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -19912,7 +19912,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -19987,7 +19987,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -20062,7 +20062,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -20137,7 +20137,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.6-upgrade-from-stable-4.5
     job-release: "4.6"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -20214,7 +20214,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -20289,7 +20289,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -20364,7 +20364,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -20439,7 +20439,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -20514,7 +20514,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -20589,7 +20589,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -20664,7 +20664,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -20739,7 +20739,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -20814,7 +20814,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -20889,7 +20889,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -20964,7 +20964,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -21039,7 +21039,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -21114,7 +21114,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -21191,7 +21191,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -21268,7 +21268,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -21345,7 +21345,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -21422,7 +21422,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -21499,7 +21499,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -21587,7 +21587,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -21664,7 +21664,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -21741,7 +21741,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -21818,7 +21818,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -21895,7 +21895,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -21972,7 +21972,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -22049,7 +22049,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -22126,7 +22126,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -22183,7 +22183,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -22258,7 +22258,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -22333,7 +22333,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -22408,7 +22408,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -22483,7 +22483,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -22558,7 +22558,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -22633,7 +22633,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7-upgrade-from-stable-4.6
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -22708,7 +22708,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.7-upgrade-from-stable-4.6
     job-release: "4.7"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -22785,7 +22785,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -22860,7 +22860,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -22935,7 +22935,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -23017,7 +23017,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -23092,7 +23092,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -23167,7 +23167,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -23242,7 +23242,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -23317,7 +23317,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -23392,7 +23392,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -23467,7 +23467,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -23542,7 +23542,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -23617,7 +23617,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -23692,7 +23692,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -23767,7 +23767,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -23842,7 +23842,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -23917,7 +23917,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -23992,7 +23992,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -24067,7 +24067,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -24142,7 +24142,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -24219,7 +24219,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -24296,7 +24296,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -24373,7 +24373,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -24450,7 +24450,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -24527,7 +24527,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -24604,7 +24604,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -24692,7 +24692,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -24780,7 +24780,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -24857,7 +24857,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -24934,7 +24934,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -25011,7 +25011,7 @@ periodics:
     repo: release
   interval: 48h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -25088,7 +25088,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -25165,7 +25165,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -25242,7 +25242,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -25319,7 +25319,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -25396,7 +25396,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -25484,7 +25484,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -25561,7 +25561,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -25638,7 +25638,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -25713,7 +25713,7 @@ periodics:
     repo: release
   interval: 12h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -25788,7 +25788,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -25863,7 +25863,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -25938,7 +25938,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -26013,7 +26013,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -26088,7 +26088,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -26163,7 +26163,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8-upgrade-from-stable-4.7
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -26238,7 +26238,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.8-upgrade-from-stable-4.7
     job-release: "4.8"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -30011,7 +30011,7 @@ periodics:
     repo: release
   interval: 72h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.9-upgrade-from-stable-4.7
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -30086,7 +30086,7 @@ periodics:
     repo: release
   interval: 24h
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.9-upgrade-from-stable-4.8
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
@@ -30161,7 +30161,7 @@ periodics:
     org: openshift
     repo: release
   labels:
-    ci-operator.openshift.io/prowgen-controlled: "true"
+    ci-operator.openshift.io/prowgen-controlled: newly-generated
     ci-operator.openshift.io/variant: nightly-4.9-upgrade-from-stable-4.8
     job-release: "4.9"
     pj-rehearse.openshift.io/can-be-rehearsed: "true"

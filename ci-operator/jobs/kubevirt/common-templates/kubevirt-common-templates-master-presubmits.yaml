@@ -11,7 +11,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-common-templates-master-e2e-azure-common-templates-centos6
     rerun_command: /test e2e-azure-common-templates-centos6
@@ -78,7 +78,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-common-templates-master-e2e-azure-common-templates-centos7
     rerun_command: /test e2e-azure-common-templates-centos7
@@ -145,7 +145,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-common-templates-master-e2e-azure-common-templates-centos8
     rerun_command: /test e2e-azure-common-templates-centos8
@@ -212,7 +212,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-common-templates-master-e2e-azure-common-templates-fedora
     rerun_command: /test e2e-azure-common-templates-fedora
@@ -279,7 +279,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-common-templates-master-e2e-azure-common-templates-opensuse
     rerun_command: /test e2e-azure-common-templates-opensuse
@@ -346,7 +346,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-common-templates-master-e2e-azure-common-templates-rhel6
     rerun_command: /test e2e-azure-common-templates-rhel6
@@ -413,7 +413,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-common-templates-master-e2e-azure-common-templates-rhel7
     rerun_command: /test e2e-azure-common-templates-rhel7
@@ -480,7 +480,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-common-templates-master-e2e-azure-common-templates-rhel8
     rerun_command: /test e2e-azure-common-templates-rhel8
@@ -547,7 +547,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-common-templates-master-e2e-azure-common-templates-rhel9
     rerun_command: /test e2e-azure-common-templates-rhel9
@@ -614,7 +614,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-common-templates-master-e2e-azure-common-templates-ubuntu
     rerun_command: /test e2e-azure-common-templates-ubuntu
@@ -681,7 +681,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-common-templates-master-e2e-azure-common-templates-unit-tests
     rerun_command: /test e2e-azure-common-templates-unit-tests
@@ -750,7 +750,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-common-templates-master-e2e-azure-common-templates-windows10
     rerun_command: /test e2e-azure-common-templates-windows10
@@ -817,7 +817,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-common-templates-master-e2e-azure-common-templates-windows2012
     rerun_command: /test e2e-azure-common-templates-windows2012
@@ -884,7 +884,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-common-templates-master-e2e-azure-common-templates-windows2016
     rerun_command: /test e2e-azure-common-templates-windows2016
@@ -951,7 +951,7 @@ presubmits:
     decoration_config:
       skip_cloning: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-kubevirt-common-templates-master-e2e-azure-common-templates-windows2019
     rerun_command: /test e2e-azure-common-templates-windows2019

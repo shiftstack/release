@@ -9,7 +9,7 @@ presubmits:
     context: ci/prow/e2e-gcp
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-gcp-pd-csi-driver-operator-master-e2e-gcp
     rerun_command: /test e2e-gcp
@@ -76,7 +76,7 @@ presubmits:
     context: ci/prow/e2e-gcp-csi
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-gcp-pd-csi-driver-operator-master-e2e-gcp-csi
     rerun_command: /test e2e-gcp-csi
@@ -143,7 +143,7 @@ presubmits:
     context: ci/prow/e2e-gcp-csi-migration
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-gcp-pd-csi-driver-operator-master-e2e-gcp-csi-migration
     optional: true
@@ -211,7 +211,7 @@ presubmits:
     context: ci/prow/images
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-gcp-pd-csi-driver-operator-master-images
     rerun_command: /test images
@@ -259,7 +259,7 @@ presubmits:
     context: ci/prow/test
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-gcp-pd-csi-driver-operator-master-test
     rerun_command: /test test
@@ -306,7 +306,7 @@ presubmits:
     context: ci/prow/verify
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-gcp-pd-csi-driver-operator-master-verify
     rerun_command: /test verify

@@ -9,7 +9,7 @@ presubmits:
     context: ci/prow/build-rpms-from-tar
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-oc-master-build-rpms-from-tar
     rerun_command: /test build-rpms-from-tar
@@ -56,7 +56,7 @@ presubmits:
     context: ci/prow/e2e-agnostic-cmd
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-oc-master-e2e-agnostic-cmd
     rerun_command: /test e2e-agnostic-cmd
@@ -121,7 +121,7 @@ presubmits:
     context: ci/prow/e2e-aws
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-oc-master-e2e-aws
     rerun_command: /test e2e-aws
@@ -186,7 +186,7 @@ presubmits:
     context: ci/prow/e2e-aws-builds
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-oc-master-e2e-aws-builds
     rerun_command: /test e2e-aws-builds
@@ -252,7 +252,7 @@ presubmits:
     context: ci/prow/e2e-aws-serial
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-oc-master-e2e-aws-serial
     rerun_command: /test e2e-aws-serial
@@ -317,7 +317,7 @@ presubmits:
     context: ci/prow/e2e-aws-upgrade
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-oc-master-e2e-aws-upgrade
     rerun_command: /test e2e-aws-upgrade
@@ -382,7 +382,7 @@ presubmits:
     context: ci/prow/e2e-metal-ipi-ovn-ipv6
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-oc-master-e2e-metal-ipi-ovn-ipv6
     optional: true
@@ -450,7 +450,7 @@ presubmits:
     context: ci/prow/images
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-oc-master-images
     rerun_command: /test images
@@ -499,7 +499,7 @@ presubmits:
     context: ci/prow/rpm-build
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-oc-master-rpm-build
     rerun_command: /test rpm-build
@@ -546,7 +546,7 @@ presubmits:
     context: ci/prow/unit
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-oc-master-unit
     rerun_command: /test unit
@@ -593,7 +593,7 @@ presubmits:
     context: ci/prow/verify
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-oc-master-verify
     rerun_command: /test verify
@@ -640,7 +640,7 @@ presubmits:
     context: ci/prow/verify-deps
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-oc-master-verify-deps
     rerun_command: /test verify-deps

@@ -9,7 +9,7 @@ presubmits:
     context: ci/prow/e2e-agnostic
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-monitoring-operator-release-4.9-e2e-agnostic
     rerun_command: /test e2e-agnostic
@@ -74,7 +74,7 @@ presubmits:
     context: ci/prow/e2e-agnostic-operator
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-monitoring-operator-release-4.9-e2e-agnostic-operator
     rerun_command: /test e2e-agnostic-operator
@@ -139,7 +139,7 @@ presubmits:
     context: ci/prow/e2e-agnostic-upgrade
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-monitoring-operator-release-4.9-e2e-agnostic-upgrade
     rerun_command: /test e2e-agnostic-upgrade
@@ -204,7 +204,7 @@ presubmits:
     context: ci/prow/e2e-aws-single-node
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-monitoring-operator-release-4.9-e2e-aws-single-node
     optional: true
@@ -270,7 +270,7 @@ presubmits:
     context: ci/prow/generate
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-monitoring-operator-release-4.9-generate
     rerun_command: /test generate
@@ -317,7 +317,7 @@ presubmits:
     context: ci/prow/images
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-monitoring-operator-release-4.9-images
     rerun_command: /test images
@@ -364,7 +364,7 @@ presubmits:
     context: ci/prow/jsonnet-fmt
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-monitoring-operator-release-4.9-jsonnet-fmt
     rerun_command: /test jsonnet-fmt
@@ -411,7 +411,7 @@ presubmits:
     context: ci/prow/rules
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-monitoring-operator-release-4.9-rules
     rerun_command: /test rules
@@ -458,7 +458,7 @@ presubmits:
     context: ci/prow/shellcheck
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-monitoring-operator-release-4.9-shellcheck
     rerun_command: /test shellcheck
@@ -505,7 +505,7 @@ presubmits:
     context: ci/prow/unit
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-monitoring-operator-release-4.9-unit
     rerun_command: /test unit
@@ -552,7 +552,7 @@ presubmits:
     context: ci/prow/vendor
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-cluster-monitoring-operator-release-4.9-vendor
     rerun_command: /test vendor

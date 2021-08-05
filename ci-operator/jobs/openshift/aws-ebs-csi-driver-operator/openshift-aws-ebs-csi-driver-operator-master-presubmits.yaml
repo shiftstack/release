@@ -9,7 +9,7 @@ presubmits:
     context: ci/prow/e2e-aws-csi
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-aws-ebs-csi-driver-operator-master-e2e-aws-csi
     rerun_command: /test e2e-aws-csi
@@ -74,7 +74,7 @@ presubmits:
     context: ci/prow/e2e-aws-csi-migration
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-aws-ebs-csi-driver-operator-master-e2e-aws-csi-migration
     optional: true
@@ -140,7 +140,7 @@ presubmits:
     context: ci/prow/images
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-aws-ebs-csi-driver-operator-master-images
     rerun_command: /test images
@@ -188,7 +188,7 @@ presubmits:
     context: ci/prow/unit
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-aws-ebs-csi-driver-operator-master-unit
     rerun_command: /test unit
@@ -235,7 +235,7 @@ presubmits:
     context: ci/prow/verify
     decorate: true
     labels:
-      ci-operator.openshift.io/prowgen-controlled: "true"
+      ci-operator.openshift.io/prowgen-controlled: newly-generated
       pj-rehearse.openshift.io/can-be-rehearsed: "true"
     name: pull-ci-openshift-aws-ebs-csi-driver-operator-master-verify
     rerun_command: /test verify
