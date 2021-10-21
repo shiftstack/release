@@ -1,0 +1,10 @@
+ref:
+  as: openstack-provision-stf-1-3
+  from: openstack-installer
+  commands: openstack-provision-stf-1-3-commands.sh
+  resources:
+    requests:
+      cpu: 10m
+      memory: 100Mi
+  documentation: |-
+    This step will deploy Service Telemetry Framework 1.3 (STF).

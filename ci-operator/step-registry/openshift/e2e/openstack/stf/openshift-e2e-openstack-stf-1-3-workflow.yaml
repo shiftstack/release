@@ -1,0 +1,16 @@
+workflow:
+  as: openshift-e2e-openstack-stf-1-3
+  steps:
+    pre:
+      - chain: ipi-openstack-pre
+    test:
+      - ref: openstack-provision-stf
+    post:
+      - chain: ipi-openstack-post
+    env:
+      BASE_DOMAIN: shiftstack.devcluster.openshift.com
+      CONFIG_TYPE: "minimal"
+  documentation: |-
+    The openshift-e2e-openstack-stf-1-3 workflow executes an installation of
+    OpenShift and then deploys Service Telemetry Framework 1.3 (STF) on top of
+    it.
