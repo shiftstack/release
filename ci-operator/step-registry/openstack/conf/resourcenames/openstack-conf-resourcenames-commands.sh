@@ -4,6 +4,14 @@ set -Eeuo pipefail
 
 CLUSTER_TYPE="${CLUSTER_TYPE_OVERRIDE:-$CLUSTER_TYPE}"
 
+
+# Temporary hack to make the CI work while we have disruption on Vexxhost.
+# see private support ticket https://support.vexxhost.com/hc/en-us/requests/364927
+declare vexxhost_flavor='c1.m1.xlarge'
+if openstack flavor show ci.m1.xlarge >/dev/null; then
+	vexxhost_flavor='ci.m1.xlarge'
+fi
+
 declare -A external_network=(
 	['openstack-vexxhost']='public'
         ['openstack-operators-vexxhost']='public'
@@ -14,7 +22,7 @@ declare -A external_network=(
 	)
 
 declare -A controlplane_flavor=(
-	['openstack-vexxhost']='ci.m1.xlarge'
+	['openstack-vexxhost']="$vexxhost_flavor"
         ['openstack-operators-vexxhost']='ci.m1.large'
 	['openstack-vh-mecha-central']='m1.xlarge'
 	['openstack-vh-mecha-az0']='m1.xlarge'
@@ -31,7 +39,7 @@ declare -A controlplane_flavor_alternate=(
 	)
 
 declare -A compute_flavor=(
-	['openstack-vexxhost']='ci.m1.xlarge'
+	['openstack-vexxhost']="$vexxhost_flavor"
         ['openstack-operators-vexxhost']='ci.m1.large'
 	['openstack-vh-mecha-central']='m1.xlarge'
 	['openstack-vh-mecha-az0']='m1.xlarge'
