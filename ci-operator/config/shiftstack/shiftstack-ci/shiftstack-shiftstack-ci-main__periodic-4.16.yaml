@@ -120,10 +120,10 @@ tests:
   steps:
     cluster_profile: openstack-hwoffload
     workflow: openshift-e2e-openstack-hwoffload-cgroupsv1
-- as: e2e-openstack-upi
+- as: e2e-openstack-dualstack-upi
   minimum_interval: 240h
   steps:
-    cluster_profile: openstack-vexxhost
+    cluster_profile: openstack-hwoffload
     env:
       OPENSTACK_TEST_SKIPS: The OpenStack platform creates Worker nodes in a server
         group\|The OpenStack platform creates Control plane nodes in a server group
