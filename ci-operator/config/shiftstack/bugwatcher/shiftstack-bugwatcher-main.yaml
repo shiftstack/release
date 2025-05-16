@@ -24,8 +24,8 @@ tests:
   container:
     from: src
 - as: go-fmt
-  commands: if [ "$(gofmt -s -l cmd | tee /dev/stderr | wc -l)" -gt 0 ]; then exit
-    1; fi
+  commands: '! gofmt -l -s $(find . -path ''./.git'' -o -path ''./vendor'' -prune
+    -o -type f -name ''*.go'' -print) | grep .'
   container:
     from: src
 zz_generated_metadata:
